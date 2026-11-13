@@ -77,3 +77,12 @@ Os registros são armazenados na coleção `pedidos`, contendo os dados informad
 ## 9. Considerações finais
 
 O desenvolvimento do Mundo Doce permitiu aplicar conhecimentos de desenvolvimento web
+
+## 10. Avaliação por usuários
+
+O sistema Mundo Doce foi disponibilizado para avaliação por colegas e profissionais, com o objetivo de identificar possíveis erros e oportunidades de melhoria.
+
+O formulário permite registrar problemas encontrados, sugestões e capturas de tela.
+
+**Formulário de avaliação:**
+https://forms.gle/GUmvxz8Xgp6Vd2zf7
