@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mundo Doce | Cupcakes Especiais</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="topo-conteudo">
+            <a href="#" class="logo">
+                <span class="logo-icone">🧁</span>
+                <span>Mundo <strong>Doce</strong></span>
+            </a>
+
+            <nav class="navegacao">
+                <a href="#inicio">Início</a>
+                <a href="#catalogo">Nossos cupcakes</a>
+                <a href="#carrinho">Meu carrinho</a>
+            </nav>
+
+            <a href="#carrinho" class="botao-topo">Fazer pedido ♡</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero-conteudo">
+                <span class="etiqueta">FEITO COM CARINHO ♡</span>
+
+                <h1>
+                    Um mundo de sabores
+                    <span>feito para adoçar seu dia.</span>
+                </h1>
+
+                <p>
+                    Cupcakes especiais, preparados com carinho
+                    para transformar pequenos momentos em grandes lembranças.
+                </p>
+
+                <a href="#catalogo" class="botao-principal">
+                    Conheça nossos sabores
+                    <span>→</span>
+                </a>
+
+                <div class="hero-detalhe">
+                    <span>♡</span> Pequenos sabores, grandes momentos.
+                </div>
+            </div>
+
+            <div class="hero-imagem">
+                <img
+                    src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1000&q=85"
+                    alt="Cupcakes decorados"
+                >
+                <div class="selo">
+                    <span>♡</span>
+                    Feito com amor
+                </div>
+            </div>
+        </section>
+
+        <section class="catalogo" id="catalogo">
+
+            <div class="titulo-secao">
+                <span class="subtitulo">ESCOLHA SEU FAVORITO</span>
+                <h2>Nossos <span>deliciosos</span> cupcakes</h2>
+                <p>Um sabor especial esperando por você.</p>
+            </div>
+
+            <div id="produtos" class="produtos">
+                <!-- Produtos carregados pelo JavaScript -->
+            </div>
+
+        </section>
+
+        <section class="carrinho-area" id="carrinho">
+
+            <div class="titulo-secao">
+                <span class="subtitulo">SEU MOMENTO DOCE</span>
+                <h2>Meu <span>carrinho</span></h2>
+                <p>Confira suas escolhas antes de finalizar.</p>
+            </div>
+
+            <div class="carrinho">
+                <div id="itens-carrinho">
+                    Seu carrinho está vazio.
+                </div>
+
+                <div class="carrinho-total">
+                    <span>Total do pedido</span>
+                    <strong id="total">R$ 0,00</strong>
+                </div>
+
+                <button id="finalizar-pedido" class="botao-principal">
+                    Finalizar meu pedido →
+                </button>
+            </div>
+
+        </section>
+
+        <section class="formulario-pedido" id="formulario-pedido" style="display: none;">
+
+            <div class="titulo-secao">
+                <span class="subtitulo">SÓ MAIS UM PASSINHO</span>
+                <h2>Finalize seu <span>pedido</span></h2>
+                <p>Informe seus dados para receber nossas delícias.</p>
+            </div>
+
+            <div class="formulario-caixa">
+
+                <form id="form-pedido">
+
+                    <label for="nome">Nome completo</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Como podemos chamar você?"
+                        required
+                    >
+
+                    <label for="telefone">Telefone</label>
+                    <input
+                        type="tel"
+                        id="telefone"
+                        placeholder="Digite seu telefone"
+                        required
+                    >
+
+                    <label for="endereco">Endereço de entrega</label>
+                    <textarea
+                        id="endereco"
+                        placeholder="Rua, número, bairro e complemento"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="botao-principal">
+                        Confirmar meu pedido ♡
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-logo"> Mundo Doce </div>
+        <p>Feito com carinho para adoçar seus melhores momentos.</p>
+        <span>© 2026 Mundo Doce. Todos os direitos reservados.</span>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
